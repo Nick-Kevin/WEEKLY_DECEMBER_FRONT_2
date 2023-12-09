@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css">
-    <link rel="stylesheet" href="styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Pages</title>
+  </head>
+
+  <body>
 </head>
 <body>
     <div id="preloader"></div>
@@ -154,44 +160,285 @@
             </div>
         </div>
 
-        <div id="author-book">
+        <section id="author-book" class="mx-auto px-6 md:px-20 lg:px-24 xl:px-48 xxl:px-64 py-14 lg:py-28">
+            <h3 class="text-center text-main-color text-3xl">Author’s Book Includes</h3>
+            <div class="flex justify-center">
+                <p class="line w-10 h-0"></p>
+            </div>
+            <div class="grid lg:grid-cols-2 lg:gap-x-14 mt-8 lg:mt-12">
+                <div id="first-content" class="grid lg:grid-cols-2 author-content lg:content-center lg:gap-x-2 lg:gap-y-0">
+                    <div class="lg:flex lg:flex-col lg:justify-end lg:pb-1">
+                        <h4 class="text-2xl lg:col-start-2 text-main-color">Atomic One’s</h4>
+                    </div>
+                    <img src="assets/sections/author-book/atomic-one-is.svg" class="mt-6 lg:mt-0 lg:col-start-1 lg:row-start-1 lg:row-end-3" alt="Atomic one's">
+                    <div>                        
+                        <p class="text-sm leading-6">
+                            Many variations of passages of Lorem Ipsum willing araise  alteration in some form.
+                        </p>
+                        <ul class="flex flex-col lg:flex-row justify-between mt-4">
+                            <div>
+                                <li class="cardo text-lg text-main-color">Pages</li>
+                                <p class="ml-5 text-sm">586 pages</p>
+                            </div>
+                            <div class="mt-3 lg:mt-0">
+                                <li class=" cardo text-lg text-main-color">Length:</li>
+                                <p class="ml-5 text-sm">10 Hours</p>
+                            </div>
+                        </ul>
+                        <button type="button" class="outlined-button guide-sm-button mt-3 text-main-color">
+                            Order Today
+                        </button>
+                    </div>
+                </div>
+                <div id="second-content" class="grid lg:grid-cols-2 author-content mt-8 lg:mt-0 lg:content-center lg:gap-x-2 lg:gap-y-0">
+                    <div class="lg:flex lg:flex-col lg:justify-end lg:pb-1">
+                        <h4 class="text-2xl lg:col-start-2 text-main-color">The dark light</h4>
+                    </div>
+                    <img src="assets/sections/author-book/the-dark-light.svg" class="mt-6 lg:mt-0 lg:col-start-1 lg:row-start-1 lg:row-end-3" alt="The dark light">
+                    <div>                        
+                        <p class="text-sm leading-6">
+                            Many variations of passages of Lorem Ipsum willing araise  alteration in some form.
+                        </p>
+                        <ul class="flex flex-col lg:flex-row justify-between mt-4">
+                            <div>
+                                <li class="cardo text-lg text-main-color">Pages</li>
+                                <p class="ml-5 text-sm">586 pages</p>
+                            </div>
+                            <div class="mt-3 lg:mt-0">
+                                <li class=" cardo text-lg text-main-color">Length:</li>
+                                <p class="ml-5 text-sm">10 Hours</p>
+                            </div>
+                        </ul>
+                        <button type="button" class="outlined-button guide-sm-button mt-3 text-main-color">
+                            Order Today
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        </div>
+      <div id="about"></div>
 
-        <div id="about">
+      <div id="trusted-by"></div>
 
-        </div>
+      <div id="callout-1"></div>
 
-        <div id="trusted-by">
+      <div id="what-will-you-learn"></div>
 
-        </div>
+      <div id="the-chapter"></div>
 
-        <div id="callout-1">
+      <div id="testimonial"></div>
 
-        </div>
+      <div id="blog"></div>
 
-        <div id="what-will-you-learn">
-
-        </div>
-
-        <div id="the-chapter">
-
-        </div>
-
-        <div id="testimonial">
-
-        </div>
-
-        <div id="blog">
-
-        </div>
-
-        <div id="callout-2">
-
-        </div>
+      <div id="callout-2"></div>
     </main>
-    <footer></footer>
+
+    <footer id="footer" class="w-full">
+      <div
+        class="footer__wrapper grid grid-cols-12 gap-5 items-center lg:items-start mx-12 xl:mx-28 2xl:mx-72 pt-6 lg:pt-20"
+      >
+        <div
+          class="footer__socialMedia flex flex-col col-span-12 lg:col-span-6 xl:col-span-3 items-center xl:items-start text-center"
+        >
+          <h4
+            class="footer__socialMedia__title flex text-white items-center text-center"
+          >
+            <img
+              src="./assets/sections/footer/Book.svg"
+              alt="book icon"
+              class="mr-3"
+            />
+            <span class="text-2xl md:text-3xl">Pages</span>
+          </h4>
+          <div class="footer__socialMedia__icon flex items-center">
+            <div class="iconWrapper">
+              <img
+                src="./assets/sections/footer/Facebook.svg"
+                alt="facebook icon"
+              />
+            </div>
+            <div class="iconWrapper">
+              <img
+                src="./assets/sections/footer/Twitter.svg"
+                alt="twitter icon"
+              />
+            </div>
+            <div class="iconWrapper">
+              <img
+                src="./assets/sections/footer/LinkedIn.svg"
+                alt="linkedin icon"
+              />
+            </div>
+            <div class="iconWrapper">
+              <img
+                src="./assets/sections/footer/Instagram.svg"
+                alt="instagram icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="explore col-span-12 lg:col-span-6 xl:col-span-2 xl:col-start-5 flex flex-col items-center xl:items-start text-center my-3 xl:-ml-2"
+        >
+          <h5 class="explore__title text-white mb-6 text-xl md:text-2xl">
+            Explore
+          </h5>
+          <div
+            class="explore__list xl:flex xl:flex-col xl:items-start xl:gap-2 xl:text-lg"
+          >
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Home</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">About us</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Services</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Appointments</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Blog</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">contact us</span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="utilityPages col-span-12 lg:col-span-6 xl:col-span-3 xl:col-start-7 flex flex-col items-center xl:items-start text-center my-3 xl:ml-7"
+        >
+          <h5 class="utilityPages__title text-white mb-6 text-xl md:text-2xl">
+            Utility Pages
+          </h5>
+          <div
+            class="utilityPages__list xl:flex xl:flex-col xl:items-start xl:gap-2"
+          >
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Start here</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Style guide</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">404 not found</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Password protected</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Licenses</span>
+            </p>
+            <p class="flex items-center justify-center">
+              <img
+                class="hidden mr-3 lg:flex"
+                src="./assets/sections/footer/ThreeDot.svg"
+                alt=""
+              />
+              <span class="text-base md:text-lg">Changelog</span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="keepInTouch col-span-12 lg:col-span-6 xl:col-span-3 xl:col-start-10 flex flex-col items-center xl:items-start text-center my-3 xl:-ml-3"
+        >
+          <h5 class="utilityPages__title text-white mb-7 text-xl md:text-2xl">
+            Keep In Touch
+          </h5>
+          <div class="xl:flex xl:flex-col xl:items-start">
+            <p class="xl:flex xl:text-justify xl:pb-4">
+              <span
+                class="text-white font-bold pr-1 xl:pr-3 text-base md:text-lg"
+                >Address:</span
+              >
+              <span class="text-base md:text-lg"
+                >24A Kingston St, Los Vegas NC 28202, USA.</span
+              >
+            </p>
+            <p class="xl:flex xl:text-justify xl:pb-4">
+              <span
+                class="text-white font-bold pr-1 xl:pr-10 text-base md:text-lg"
+                >Mail:</span
+              >
+              <span class="text-base md:text-lg">support@doctors.com</span>
+            </p>
+            <p class="xl:flex xl:text-justify">
+              <span
+                class="text-white font-bold pr-1 xl:pr-6 text-base md:text-lg"
+                >Phone:</span
+              >
+              <span class="text-base md:text-lg">(+22) 123 - 4567 - 900</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr class="footer__divider mx-12 xl:mx-28 2xl:mx-72" />
+      <div class="footer__copyright flex justify-center pb-6">
+        <p class="lg:text-2xl">
+          ©Drafted by
+          <span class="footer__copyright--color-white">Victorflow</span> -
+          Powered by <span class="footer__copyright--color-white">Webflow</span>
+        </p>
+      </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
-</body>
+  </body>
 </html>
