@@ -12,8 +12,8 @@
 <body>
     <div id="preloader"></div>
     <header class="fixed w-full z-20 top-0 start-0">
-        <nav class="bg-main-color">
-            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 md:px-20 lg:px-24 xl:px-40 xxl:px-64 py-7">
+        <nav class="bg-main-color w-full">
+            <div class="flex flex-wrap items-center justify-between px-6 md:px-20 lg:px-24 xl:px-48 xxl:px-64 py-3 md:py-7">
                 <div class="flex items-center">
                     <a href="#" class="flex items-center space-x-1 rtl:space-x-reverse">
                         <img src="assets/sections/header/Logo.svg" class="h-6" alt="Logo" />
@@ -115,8 +115,16 @@
         </nav>  
     </header>
     <main>
-        <div id="banner">
-            <h1>Hello world!</h1>
+        <div id="banner" class="grid lg:grid-cols-2 bg-main-color mx-auto px-6 md:px-20 lg:px-24 xl:px-48 xxl:px-64 pt-6 pb-16 lg:pt-12 lg:pb-24">
+            <div>
+                <div class="flex items-center">
+                    <p class="line w-6 h-0"></p>
+                    <i class="cardo ml-2 text-white">Welcome to Pages</i>
+                </div>
+            </div>
+            <div class="mt-8 lg:mt-0">
+                <img src="assets/sections/banner/Book.svg" alt="Book">
+            </div>
         </div>
 
         <div id="author-book">
