@@ -29,10 +29,8 @@ h3 {
 }
 
 h4 {
-    font-size: calc(18px + 1vw) !important;
     line-height: 42px !important;
     letter-spacing: -0.015em !important;
-    text-align: left !important;
 }
 
 h5 {
@@ -116,7 +114,6 @@ header #dropdownNavbarLink:hover {
 }
 
 .outlined-button {
-    background: linear-gradient(0deg, #FFCA42, #FFCA42),linear-gradient(0deg, #FFFFFF, #FFFFFF) !important;
     border: 1px solid var(--second-color) !important;
 }
 
@@ -140,6 +137,13 @@ header #dropdownNavbarLink:hover {
     border: unset;
 }
 
-#banner ul {
+#banner ul,
+#author-book ul {
     list-style-position: inside;
+}
+
+@media (min-width: 768px) {
+    #author-book #first-content {
+        grid-template-rows: 16.5% auto;
+    }
 }
