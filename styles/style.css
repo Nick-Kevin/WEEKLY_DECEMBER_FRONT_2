@@ -23,10 +23,9 @@ h2 {
 }
 
 h3 {
-    font-size: calc(25px + 1vw) !important;
+    /*font-size: calc(25px + 1vw) !important;*/
     line-height: 58px !important;
     letter-spacing: -0.015em !important;
-    text-align: left !important;
 }
 
 h4 {
