@@ -150,7 +150,17 @@ header #dropdownNavbarLink:hover {
 
 /* newsletter */
 .newsletter{
-    padding-inline: 310px;
+    padding-inline: 60px;
+
+    @media (min-width:1024px) {
+        padding-inline: 100px;
+    }
+
+    @media (min-width:1920px) {
+        padding-inline: 310px;
+    }
+
+    
 }
 
 .wrapper{
@@ -161,9 +171,16 @@ header #dropdownNavbarLink:hover {
 
 .newsletter__title{
     color: var(--main-color);
-    font-size: 45px;
+    font-size: 24px;
     padding: 0 0 17px 24px;
-    /* padding-bottom: 17px; */
+
+    @media (min-width:1024px) {
+            font-size: 30px;
+        }
+    
+        @media (min-width:1536px) {
+            font-size: 45px;
+        }
 }
 
 .newsletter__line{
