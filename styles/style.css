@@ -140,3 +140,7 @@ header #dropdownNavbarLink:hover {
 #banner a:hover {
     border: unset;
 }
+
+#banner ul {
+    list-style-position: inside;
+}
