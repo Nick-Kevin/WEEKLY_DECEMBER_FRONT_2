@@ -84,6 +84,10 @@ header #cart span {
     border-radius: 50%;
 }
 
+header button {
+    padding: 8px 25px !important;
+}
+
 main {
     margin-top: 64px;
 }
@@ -118,7 +122,7 @@ header #dropdownNavbarLink:hover {
 }
 
 .guide-sm-button {
-    padding: 8px 25px !important;
+    padding: 15px 40px !important;
 }
 
 .line {
@@ -127,5 +131,12 @@ header #dropdownNavbarLink:hover {
 
 #banner p {
     color: rgba(180, 199, 231, 1);
-    ;
+}
+
+#banner a {
+    border-bottom: 1px solid white;
+}
+
+#banner a:hover {
+    border: unset;
 }
