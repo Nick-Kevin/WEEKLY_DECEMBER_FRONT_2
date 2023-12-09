@@ -6,11 +6,11 @@
     --second-color: rgba(255, 202, 66, 1) !important;
     --third-color: rgba(246, 248, 252, 1) !important;
     --paragraph-color: rgba(150, 154, 160, 1) !important;
+    --line: 1px solid rgba(255, 202, 66, 1) !important;
 }
 
 h1 {
-    font-size: calc(50px + 1vw) !important;
-    line-height: 84px !important;
+    line-height: 1.10 !important;
     letter-spacing: -0.015em !important;
     text-align: left !important;
 }
@@ -59,6 +59,7 @@ p {
     font-size: calc(6px + 1vw);
     font-weight: 400 !important;
     line-height: 32px !important;
+    color: var(--paragraph-color);
     letter-spacing: -0.01em !important;
 }
 
@@ -68,12 +69,55 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Cardo, 'Times New Roman', Times, serif !important;
 }
 
-.inter, p {
-    font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+.inter, body, p {
+    font-family: Inter, 'Arial Narrow Bold', sans-serif !important;
 }
 
 ul {
     list-style-image: url("../assets/utils/ul-style.svg") !important;
+}
+
+header ul {
+    list-style-image: unset !important;
+}
+
+header #cart span {
+    font-size: 8px !important;
+    font-weight: 400;
+    padding: 0 5px;
+    border-radius: 50%;
+}
+
+header #order-today {
+    padding: 8px 25px !important;
+}
+
+main {
+    margin-top: 64px;
+}
+
+@media (min-width: 768px) {
+    main {
+        margin-top: 92px;
+    }
+}
+
+.bg-main-color {
+    background-color: var(--main-color) !important;
+}
+
+.bg-second-color {
+    background-color: var(--second-color) !important;
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+.text-second-color,
+header a:hover,
+header #dropdownNavbarLink:hover {
+    color: var(--second-color) !important;
 }
 
 .outlined-button {
@@ -106,4 +150,28 @@ footer{
 
 .footer__divider{
     padding-bottom: 18px;
+}
+
+.guide-sm-button {
+    padding: 15px 40px !important;
+}
+
+.line {
+    border: var(--line);
+}
+
+#banner p {
+    color: rgba(180, 199, 231, 1);
+}
+
+#banner a {
+    border-bottom: 1px solid white;
+}
+
+#banner a:hover {
+    border: unset;
+}
+
+#banner ul {
+    list-style-position: inside;
 }
