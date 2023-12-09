@@ -7,6 +7,7 @@
     --third-color: rgba(246, 248, 252, 1) !important;
     --paragraph-color: rgba(150, 154, 160, 1) !important;
     --line: 1px solid rgba(255, 202, 66, 1) !important;
+    --section-bg: rgba(244, 248, 255, 1);
 }
 
 h1 {
@@ -125,6 +126,10 @@ header #dropdownNavbarLink:hover {
     border: var(--line);
 }
 
+.section-bg {
+    background-color: var(--section-bg);
+}
+
 #banner p {
     color: rgba(180, 199, 231, 1);
 }
@@ -146,4 +151,8 @@ header #dropdownNavbarLink:hover {
     #author-book #first-content, #author-book #second-content {
         grid-template-rows: 16.5% auto;
     }
+}
+
+#about {
+    grid-template-rows: 5% auto;
 }
