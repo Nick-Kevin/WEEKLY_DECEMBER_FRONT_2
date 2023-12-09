@@ -10,8 +10,7 @@
 }
 
 h1 {
-    font-size: calc(50px + 1vw) !important;
-    line-height: 84px !important;
+    line-height: 1.10 !important;
     letter-spacing: -0.015em !important;
     text-align: left !important;
 }
@@ -56,10 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    color: var(--paragraph-color) !important;
-    font-size: calc(6px + 1vw) !important;
-    font-weight: 400 !important;
-    line-height: 32px !important;
+    color: var(--paragraph-color);
     letter-spacing: -0.01em !important;
 }
 
@@ -127,4 +123,9 @@ header #dropdownNavbarLink:hover {
 
 .line {
     border: var(--line);
+}
+
+#banner p {
+    color: rgba(180, 199, 231, 1);
+    ;
 }
