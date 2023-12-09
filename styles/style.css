@@ -80,6 +80,13 @@ header ul {
     list-style-image: unset !important;
 }
 
+header #cart span {
+    font-size: 8px !important;
+    font-weight: 400;
+    padding: 0 5px;
+    border-radius: 50%;
+}
+
 .bg-main-color {
     background-color: var(--main-color) !important;
 }
@@ -90,6 +97,12 @@ header ul {
 
 .text-main-color {
     color: var(--main-color);
+}
+
+.text-second-color,
+header a:hover,
+header #dropdownNavbarLink:hover {
+    color: var(--second-color) !important;
 }
 
 .outlined-button {
