@@ -80,3 +80,22 @@ ul {
     background: linear-gradient(0deg, #FFCA42, #FFCA42),linear-gradient(0deg, #FFFFFF, #FFFFFF) !important;
     border: 1px solid var(--second-color) !important;
 }
+
+
+footer{
+    background-color: var(--main-color);
+}
+
+.footer__socialMedia__icon{
+    margin-top: 27px;
+}
+
+.iconWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid var(--second-color);
+}
