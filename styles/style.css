@@ -84,7 +84,7 @@ header #cart span {
     border-radius: 50%;
 }
 
-header button {
+header #order-today {
     padding: 8px 25px !important;
 }
 
