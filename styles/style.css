@@ -143,7 +143,7 @@ header #dropdownNavbarLink:hover {
 }
 
 @media (min-width: 768px) {
-    #author-book #first-content {
+    #author-book #first-content, #author-book #second-content {
         grid-template-rows: 16.5% auto;
     }
 }
