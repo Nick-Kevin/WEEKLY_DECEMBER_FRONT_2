@@ -81,10 +81,22 @@ header ul {
 }
 
 .bg-main-color {
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
+}
+
+.bg-second-color {
+    background-color: var(--second-color) !important;
+}
+
+.text-main-color {
+    color: var(--main-color);
 }
 
 .outlined-button {
     background: linear-gradient(0deg, #FFCA42, #FFCA42),linear-gradient(0deg, #FFFFFF, #FFFFFF) !important;
     border: 1px solid var(--second-color) !important;
+}
+
+.guide-sm-button {
+    padding: 8px 25px !important;
 }
