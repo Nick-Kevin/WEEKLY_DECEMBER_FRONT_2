@@ -6,6 +6,7 @@
     --second-color: rgba(255, 202, 66, 1) !important;
     --third-color: rgba(246, 248, 252, 1) !important;
     --paragraph-color: rgba(150, 154, 160, 1) !important;
+    --line: 1px solid rgba(255, 202, 66, 1) !important;
 }
 
 h1 {
@@ -87,6 +88,16 @@ header #cart span {
     border-radius: 50%;
 }
 
+main {
+    margin-top: 64px;
+}
+
+@media (min-width: 768px) {
+    main {
+        margin-top: 92px;
+    }
+}
+
 .bg-main-color {
     background-color: var(--main-color) !important;
 }
@@ -112,4 +123,8 @@ header #dropdownNavbarLink:hover {
 
 .guide-sm-button {
     padding: 8px 25px !important;
+}
+
+.line {
+    border: var(--line);
 }
