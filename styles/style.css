@@ -6,7 +6,9 @@
     --second-color: rgba(255, 202, 66, 1) !important;
     --third-color: rgba(246, 248, 252, 1) !important;
     --paragraph-color: rgba(150, 154, 160, 1) !important;
+    --pg-color-in-mainc-bg: rgba(180, 199, 231, 1);
     --line: 1px solid rgba(255, 202, 66, 1) !important;
+    --other-btn-border: 1px solid rgba(255, 202, 66, 1);
     --section-bg: rgba(244, 248, 255, 1);
 }
 
@@ -115,8 +117,16 @@ header #dropdownNavbarLink:hover {
 
 }
 
+.text-color-in-mainc-bg {
+    color: var(--pg-color-in-mainc-bg) !important;
+}
+
 .outlined-button {
     border: 1px solid var(--second-color) !important;
+}
+
+.outlined-2-button {
+    border: var(--other-btn-border);
 }
 
 
