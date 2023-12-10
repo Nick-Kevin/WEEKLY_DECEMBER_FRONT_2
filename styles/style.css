@@ -42,7 +42,6 @@ h5 {
 }
 
 h6 {
-    line-height: 29px !important;
     letter-spacing: -0.015em !important;
 }
 
@@ -50,7 +49,6 @@ p {
     color: var(--paragraph-color) !important;
     font-size: calc(6px + 1vw);
     font-weight: 400 !important;
-    line-height: 32px !important;
     color: var(--paragraph-color);
     letter-spacing: -0.01em !important;
 }
