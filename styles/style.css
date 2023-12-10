@@ -6,7 +6,10 @@
     --second-color: rgba(255, 202, 66, 1) !important;
     --third-color: rgba(246, 248, 252, 1) !important;
     --paragraph-color: rgba(150, 154, 160, 1) !important;
+    --pg-color-in-mainc-bg: rgba(180, 199, 231, 1);
     --line: 1px solid rgba(255, 202, 66, 1) !important;
+    --other-btn-border: 1px solid rgba(255, 202, 66, 1);
+    --section-bg: rgba(244, 248, 255, 1);
 }
 
 h1 {
@@ -41,21 +44,13 @@ h5 {
 }
 
 h6 {
-    font-size: calc(6px + 1vw) !important;
-    line-height: 29px !important;
     letter-spacing: -0.015em !important;
-    text-align: left !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700 !important;
 }
 
 p {
     color: var(--paragraph-color) !important;
     font-size: calc(6px + 1vw);
     font-weight: 400 !important;
-    line-height: 32px !important;
     color: var(--paragraph-color);
     letter-spacing: -0.01em !important;
 }
@@ -117,8 +112,21 @@ header #dropdownNavbarLink:hover {
     color: var(--second-color) !important;
 }
 
+.text-third-color {
+    color: rgba(180, 199, 231, 1);
+
+}
+
+.text-color-in-mainc-bg {
+    color: var(--pg-color-in-mainc-bg) !important;
+}
+
 .outlined-button {
     border: 1px solid var(--second-color) !important;
+}
+
+.outlined-2-button {
+    border: var(--other-btn-border);
 }
 
 
@@ -149,11 +157,29 @@ footer{
 }
 
 .guide-sm-button {
-    padding: 15px 40px !important;
+    padding: 15px 40px;
+}
+
+@media (max-width:767px) {
+    .guide-sm-button {
+        padding: 10px;
+    }
 }
 
 .line {
     border: var(--line);
+}
+
+.br-second-color {
+    border-right: 1px solid var(--second-color);
+}
+
+.bl-second-color {
+    border-left: 1px solid var(--second-color);
+}
+
+.section-bg {
+    background-color: var(--section-bg);
 }
 
 #banner p {
@@ -179,6 +205,19 @@ footer{
     }
 }
 
+#about {
+    grid-template-rows: 5% auto;
+}
+
+#about > img {
+    box-shadow: var(--section-bg) 15px 15px 0 -5px, var(--second-color) 15px 15px 0;
+}
+
+@media (min-width: 768px) {
+    #about > img {
+        box-shadow: var(--section-bg) 30px 30px 0 -10px, var(--second-color) 30px 30px 0;
+    }
+}  
 /* newsletter */
 .newsletter{
     padding-inline: 60px;

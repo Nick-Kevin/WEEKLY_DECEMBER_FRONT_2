@@ -230,10 +230,10 @@
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form.
           </p>
-          <div class="flex items-center mt-7">
+          <div class="flex flex-col lg:flex-row items-center mt-7">
             <button
               type="button"
-              class="guide-sm-button text-sm text-main-color bg-second-color"
+              class="guide-sm-button text-sm mb-6 lg:mb-0 w-full lg:w-auto text-main-color bg-second-color"
             >
               Order Today
             </button>
@@ -300,7 +300,7 @@
               </ul>
               <button
                 type="button"
-                class="outlined-button guide-sm-button mt-3 text-main-color"
+                class="outlined-button w-full lg:w-auto guide-sm-button mt-3 text-main-color"
               >
                 Order Today
               </button>
@@ -337,7 +337,7 @@
               </ul>
               <button
                 type="button"
-                class="outlined-button guide-sm-button mt-3 text-main-color"
+                class="outlined-button w-full lg:w-auto guide-sm-button mt-3 text-main-color"
               >
                 Order Today
               </button>
@@ -346,11 +346,155 @@
         </div>
       </section>
 
-      <div id="about"></div>
+      <div
+        id="about"
+        class="x-auto grid lg:grid-cols-2 lg:gap-x-24 px-6 md:px-20 lg:px-24 xl:px-48 xxl:px-64 py-14 lg:py-28 pb-48 section-bg"
+      >
+        <div class="lg:col-start-2 flex flex-col justify-end pb-4">
+          <h3 class="text-3xl text-main-color">About Author</h3>
+          <p class="line w-9 h-0"></p>
+        </div>
+        <img
+          src="assets/sections/about-author/author.png"
+          class="w-96 lg:row-start-1 lg:row-end-3"
+          alt="author"
+        />
+        <div class="h-96 mt-10 lg:mt-0">
+          <p class="text-sm leading-6">
+            All the Lorem Ipsum generators on the Internet tend to repeated
+            predefined chunks as necessary, making this the first true value
+            generator on the Internet. It uses a dictionary of over 200 Latin
+            words, combined with a handful.
+          </p>
+          <div class="flex w-full mt-8">
+            <div class="pl-4 pr-5 br-second-color">
+              <h3 class="text-4xl text-main-color">02</h3>
+              <p class="text-sm leading-6">Books Published</p>
+            </div>
+            <div class="pl-4 pr-5 br-second-color">
+              <h3 class="text-4xl text-main-color">4.5</h3>
+              <p class="text-sm leading-6">User Reviews</p>
+            </div>
+            <div class="px-4">
+              <h3 class="text-4xl text-main-color">04</h3>
+              <p class="text-sm leading-6">Best Seller Awards</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col lg:flex-row content-between items-center bg-main-color gap-x-10 mt-8 mb-10 lg:mb-0 p-4"
+          >
+            <img
+              src="assets/sections/about-author/qr-code.png"
+              class="w-24"
+              alt="QR Code"
+            />
+            <div class="flex flex-col mt-3 lg:mt-0">
+              <h6 class="text-second-color text-lg font-light">
+                John Abraham , Ph.d
+              </h6>
+              <h6 class="text-third-color inter text-sm font-light">
+                Mail : johnabraham@gmail.com <br />
+                Phone : (+2) 123 545 9000
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div id="trusted-by"></div>
+      <section
+        id="trusted-by"
+        class="px-6 md:px-20 lg:px-24 xl:px-48 xxl:px-64 py-14 lg:py-28"
+      >
+        <h3 class="text-3xl text-main-color font-bold text-center">
+          Trusted by the Best
+        </h3>
+        <div class="flex justify-center mt-1">
+          <p class="line w-9 h-0"></p>
+        </div>
+        <div class="flex flex-col lg:flex-row mt-8">
+          <div class="flex items-center flex-col lg:px-6">
+            <img
+              src="assets/sections/trusted-by/amazen-corp.svg"
+              class="w-20"
+              alt="Amazen corp logo"
+            />
+            <h5 class="text-main-color text-lg font-semibold mt-4">
+              Amazen Corp
+            </h5>
+            <p class="text-center text-sm leading-6 mt-1">
+              A long established fact that a who looking at its layout.
+            </p>
+          </div>
+          <div class="flex items-center flex-col mt-11 lg:mt-0 lg:px-6">
+            <img
+              src="assets/sections/trusted-by/megan-books.svg"
+              class="w-36"
+              alt="Megan books logo"
+            />
+            <h5 class="text-main-color text-lg font-semibold mt-4">
+              Megan Books
+            </h5>
+            <p class="text-center text-sm leading-6 mt-1">
+              A long established fact that a who looking at its layout.
+            </p>
+          </div>
+          <div class="flex items-center flex-col mt-11 lg:mt-0 lg:px-6">
+            <img
+              src="assets/sections/trusted-by/los-books.svg"
+              class="w-24"
+              alt="Los books logo"
+            />
+            <h5 class="text-main-color text-lg font-semibold mt-4">
+              Los Books
+            </h5>
+            <p class="text-center text-sm leading-6 mt-1">
+              A long established fact that a who looking at its layout.
+            </p>
+          </div>
+          <div class="flex items-center flex-col mt-11 lg:mt-0 lg:px-6">
+            <img
+              src="assets/sections/trusted-by/urban-lib.svg"
+              class="w-20"
+              alt="Urban lib logo"
+            />
+            <h5 class="text-main-color text-lg font-semibold mt-4">
+              Urban lib
+            </h5>
+            <p class="text-center text-sm leading-6 mt-1">
+              A long established fact that a who looking at its layout.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <div id="callout-1"></div>
+      <div
+        id="callout-1"
+        class="grid lg:grid-cols-2 lg:gap-x-5 bg-main-color px-6 md:px-20 lg:px-24 xl:px-48 xxl:px-64 py-14 lg:py-8"
+      >
+        <div class="lg:flex lg:flex-col lg:justify-end">
+          <h3 class="text-3xl text-white font-bold">Get Book Copy Today!</h3>
+          <p class="line w-9 h-0"></p>
+        </div>
+        <img
+          src="assets/sections/callout-1/photo.png"
+          class="mt-6 lg:mt-0 lg:col-start-2 lg:row-start-1 lg:row-end-3"
+          alt="Book"
+        />
+        <div class="h-40">
+          <p
+            class="text-color-in-mainc-bg text-sm font-light mt-6 lg:mt-4 leading-6"
+          >
+            This the first true value generator on the Internet. It uses alphas
+            dictionary of over 200 Latin words.
+          </p>
+          <button
+            type="button"
+            class="mt-6 w-full lg:w-auto outlined-2-button guide-sm-button mt-3 text-white"
+          >
+            Order Today
+          </button>
+        </div>
+      </div>
 
       <div id="what-will-you-learn"></div>
 
