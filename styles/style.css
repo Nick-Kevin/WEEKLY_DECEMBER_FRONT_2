@@ -157,7 +157,13 @@ footer{
 }
 
 .guide-sm-button {
-    padding: 15px 40px !important;
+    padding: 15px 40px;
+}
+
+@media (max-width:767px) {
+    .guide-sm-button {
+        padding: 10px;
+    }
 }
 
 .line {
