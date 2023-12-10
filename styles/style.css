@@ -35,9 +35,9 @@ h4 {
 
 h5 {
     font-size: calc(13px + 1vw) ;
-    line-height: 31px !important;
-    letter-spacing: -0.015em !important;
-    text-align: left !important;
+    line-height: 31px ;
+    letter-spacing: -0.015em;
+    text-align: left;
 }
 
 h6 {
@@ -177,4 +177,80 @@ footer{
     #author-book #first-content, #author-book #second-content {
         grid-template-rows: 16.5% auto;
     }
+}
+
+/* blogs */
+#blogs{
+    background: #F4F8FF;
+    padding-block: 50px;
+
+    @media (min-width:1024px) {
+        padding-block: 145px;
+    }
+    
+}
+
+.blogs__wrapper{
+    margin: 0 50px;
+
+    @media (min-width:1536px) {
+        margin: 0 310px;
+    }
+}
+
+.blogs__wrapper__title{
+    color: var(--main-color);
+    line-height: 120%;
+    font-size: 45px;
+    margin-bottom: 22px;
+}
+
+.blogs__wrapper__divider{
+    width: 55px;
+    border-top: 3px solid var(--second-color);
+    margin-bottom: 40px;
+}
+
+.blogs__card{
+    min-width: fit-content;
+    max-width: 410px;
+    background: #FFF;
+    box-shadow: 0px 35px 25px 0px rgba(4, 11, 20, 0.04);
+}
+
+.blogs__card__legend{
+    display: flex;
+    flex-direction: column;
+    padding: 27px 32px;
+}
+
+.blogs__card__legend--title{
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--main-color);
+    padding: 0 0 14px 0;
+    letter-spacing: -0.48px;
+}
+
+.blogs__card__legend--description{
+    font-size: 19px;
+    color: #969AA0;
+    padding: 0 0 27px 0;
+    line-height: 180%;
+    letter-spacing: -0.19px;
+}
+
+.blogs__card__legend--footer{
+    color: var(--main-color);
+}
+
+.blogs__card__legend--footer a{
+    line-height: 125%;
+    padding-bottom: 3px;
+    border-bottom:  1px solid var(--main-color);
+}
+
+.blogs__card__legend--footer span{
+    font-size: 17px;
+    line-height: 125%;
 }
