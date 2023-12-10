@@ -166,5 +166,11 @@ header #dropdownNavbarLink:hover {
 }
 
 #about img {
-    box-shadow: var(--second-color) 30px 30px 0;
+    box-shadow: var(--second-color) 15px 15px 0;
+}
+
+@media (min-width: 768px) {
+    #about img {
+        box-shadow: var(--second-color) 30px 30px 0;
+    }    
 }
