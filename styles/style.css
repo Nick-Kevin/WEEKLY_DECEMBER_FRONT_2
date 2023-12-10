@@ -480,3 +480,85 @@ footer{
     line-height: 180%;
     letter-spacing: -0.19px;
 }
+
+/* what-will-you-learn? */
+#what-will-you-learn{
+    background: white;
+    padding-block: 50px;
+    
+    @media (min-width:1024px) {
+        padding-block: 145px;
+    }
+}
+
+.learn__wrapper{
+    margin: 0 50px;
+    
+        @media (min-width:1536px) {
+            margin: 0 310px;
+        }
+}
+
+.learn__wrapper__title{
+    color: var(--main-color);
+        text-align: center;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -0.9px;
+        margin: 0 0 22px 0;
+}
+
+.learn__wrapper__divider{
+    width: 50px;
+    border-bottom: 3px solid var(--second-color);
+    margin: 0 0 46px 0;
+}
+
+
+
+.learn__card{
+    max-width: 290px;
+    max-height: 299px;
+    background: #F4F8FF;
+    padding: 41px 33px;
+}
+
+.learn__wrapper__content__card{
+    display: flex;
+    width: 224px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 31px;
+}
+
+.card__numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--second-color);
+    color: var(--main-color);
+    text-align: center;  
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.24px;
+}
+
+.card__description{
+    color: var(--main-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.24px;
+}
+
+.learn__wrapper__content--right{
+    margin: 0 0 0 50px;
+}
