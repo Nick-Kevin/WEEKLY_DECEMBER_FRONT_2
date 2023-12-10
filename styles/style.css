@@ -52,6 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+    color: var(--paragraph-color) !important;
+    font-size: calc(6px + 1vw);
+    font-weight: 400 !important;
+    line-height: 32px !important;
     color: var(--paragraph-color);
     letter-spacing: -0.01em !important;
 }
@@ -115,6 +119,33 @@ header #dropdownNavbarLink:hover {
 
 .outlined-button {
     border: 1px solid var(--second-color) !important;
+}
+
+
+footer{
+    background-color: var(--main-color);
+}
+
+.footer__wrapper{
+    padding-bottom: 77px;
+}
+
+.footer__socialMedia__icon{
+    margin-top: 27px;
+}
+
+.iconWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid var(--second-color);
+}
+
+.footer__divider{
+    padding-bottom: 18px;
 }
 
 .guide-sm-button {
