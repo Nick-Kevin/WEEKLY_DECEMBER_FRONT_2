@@ -230,10 +230,10 @@
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form.
           </p>
-          <div class="flex items-center mt-7">
+          <div class="flex flex-col lg:flex-row items-center mt-7">
             <button
               type="button"
-              class="guide-sm-button text-sm text-main-color bg-second-color"
+              class="guide-sm-button text-sm mb-6 lg:mb-0 w-full lg:w-auto text-main-color bg-second-color"
             >
               Order Today
             </button>
@@ -414,7 +414,22 @@
             </div>
         </section>
 
-        <div id="callout-1"></div>
+        <div id="callout-1" class="grid lg:grid-cols-2 lg:gap-x-5 bg-main-color px-6 md:px-20 lg:px-24 xl:px-48 xxl:px-64 py-14 lg:py-8">
+            <div class="lg:flex lg:flex-col lg:justify-end">
+                <h3 class="text-3xl text-white font-bold">Get Book Copy Today!</h3>
+                <p class="line w-9 h-0"></p>
+            </div>
+            <img src="assets/sections/callout-1/photo.png" class="mt-6 lg:mt-0 lg:col-start-2 lg:row-start-1 lg:row-end-3" alt="Book">
+            <div class="h-40">
+                <p class="text-color-in-mainc-bg text-sm font-light mt-6 lg:mt-4 leading-6">
+                    This the first true value generator on the Internet.
+                    It uses alphas dictionary of over 200 Latin words.
+                </p>
+                <button type="button" class="mt-6 outlined-2-button guide-sm-button mt-3 text-white">
+                    Order Today
+                </button>
+            </div>
+        </div>
 
         <div id="what-will-you-learn"></div>
 
