@@ -13,7 +13,11 @@
     <title>Pages</title>
   </head>
   <body>
-    <div id="preloader"></div>
+    <div id="preloader" class="w-full flex-col flex items-center justify-center top-0 start-0 z-30 fixed bg-main-color">
+        <img src="assets/utils/ball-triangle.svg" alt="Ball triangle">
+        <h3 class="text-3xl text-second-color text-white mt-8">Loading</h3>
+    </div>
+
     <header class="fixed w-full z-20 top-0 start-0">
       <nav class="bg-main-color w-full">
         <div
@@ -765,5 +769,6 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    <script src="js/preloader.js"></script>
   </body>
 </html>

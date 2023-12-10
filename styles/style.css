@@ -69,6 +69,10 @@ ul {
     list-style-image: url("../assets/utils/ul-style.svg") !important;
 }
 
+#preloader {
+    min-height: 100vh;
+}
+
 header ul {
     list-style-image: unset !important;
 }
