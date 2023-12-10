@@ -7,6 +7,7 @@
     --third-color: rgba(246, 248, 252, 1) !important;
     --paragraph-color: rgba(150, 154, 160, 1) !important;
     --line: 1px solid rgba(255, 202, 66, 1) !important;
+    --section-bg: rgba(244, 248, 255, 1);
 }
 
 h1 {
@@ -41,14 +42,8 @@ h5 {
 }
 
 h6 {
-    font-size: calc(6px + 1vw) !important;
     line-height: 29px !important;
     letter-spacing: -0.015em !important;
-    text-align: left !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700 !important;
 }
 
 p {
@@ -117,6 +112,11 @@ header #dropdownNavbarLink:hover {
     color: var(--second-color) !important;
 }
 
+.text-third-color {
+    color: rgba(180, 199, 231, 1);
+
+}
+
 .outlined-button {
     border: 1px solid var(--second-color) !important;
 }
@@ -156,6 +156,18 @@ footer{
     border: var(--line);
 }
 
+.br-second-color {
+    border-right: 1px solid var(--second-color);
+}
+
+.bl-second-color {
+    border-left: 1px solid var(--second-color);
+}
+
+.section-bg {
+    background-color: var(--section-bg);
+}
+
 #banner p {
     color: rgba(180, 199, 231, 1);
 }
@@ -177,4 +189,18 @@ footer{
     #author-book #first-content, #author-book #second-content {
         grid-template-rows: 16.5% auto;
     }
+}
+
+#about {
+    grid-template-rows: 5% auto;
+}
+
+#about > img {
+    box-shadow: var(--section-bg) 15px 15px 0 -5px, var(--second-color) 15px 15px 0;
+}
+
+@media (min-width: 768px) {
+    #about > img {
+        box-shadow: var(--section-bg) 30px 30px 0 -10px, var(--second-color) 30px 30px 0;
+    }    
 }
