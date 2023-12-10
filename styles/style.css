@@ -42,14 +42,8 @@ h5 {
 }
 
 h6 {
-    font-size: calc(6px + 1vw) !important;
     line-height: 29px !important;
     letter-spacing: -0.015em !important;
-    text-align: left !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700 !important;
 }
 
 p {
@@ -114,6 +108,11 @@ header #dropdownNavbarLink:hover {
     color: var(--second-color) !important;
 }
 
+.text-third-color {
+    color: rgba(180, 199, 231, 1);
+
+}
+
 .outlined-button {
     border: 1px solid var(--second-color) !important;
 }
@@ -165,12 +164,12 @@ header #dropdownNavbarLink:hover {
     grid-template-rows: 5% auto;
 }
 
-#about img {
-    box-shadow: var(--second-color) 15px 15px 0;
+#about > img {
+    box-shadow: var(--section-bg) 15px 15px 0 -5px, var(--second-color) 15px 15px 0;
 }
 
 @media (min-width: 768px) {
-    #about img {
-        box-shadow: var(--second-color) 30px 30px 0;
+    #about > img {
+        box-shadow: var(--section-bg) 30px 30px 0 -10px, var(--second-color) 30px 30px 0;
     }    
 }
