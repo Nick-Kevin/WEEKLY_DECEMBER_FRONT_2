@@ -340,12 +340,15 @@ footer{
 }
 
 .testimonials__left__title{
-    max-width: 326px;
     color: var(--main-color);
     font-size: 45px;
     line-height: 120%;
     letter-spacing: -0.9px;
     margin: 0 0 27px 0;
+
+    @media (min-width:1024px) {
+            max-width: 326px;
+        }
 }
 
 .testimonials__left__divider{
@@ -390,9 +393,14 @@ footer{
 
 .testimonials__card{
     background-color: var(--main-color);
-    max-width: 370px;
-    max-height: 309px;
+    /* max-width: 370px;
+    max-height: 309px; */
     padding: 36px 31px;
+
+    @media (min-width:1024px) {
+            max-width: 370px;
+            max-height: 309px;
+        }
 }
 
 .testimonials__card__header{
